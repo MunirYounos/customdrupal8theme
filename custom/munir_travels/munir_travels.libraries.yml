@@ -1,0 +1,18 @@
+global-css:
+  css:
+    theme:
+      css/base.css: {}
+      css/fonts.css: {}
+      css/animations.css: {}
+      css/styles.css: {}
+      css/custom.css: {}
+
+global-js:
+  js:
+    js/modernizr.min.js: {}
+    js/space.min.js: {}
+    js/jquery-3.2.1.min.js: {}
+    js/plugins.js: {}
+    js/main.js: {}
+  dependencies:
+    - core/jquery

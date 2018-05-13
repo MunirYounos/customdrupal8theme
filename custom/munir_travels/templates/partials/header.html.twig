@@ -1,0 +1,54 @@
+
+<!-- header
+================================================== -->
+<header  id="top" class="s-header">
+
+    <div class="header-logo">
+        <a class="site-logo" href="index.html">
+            {{ page.header }}
+        </a>
+    </div>
+
+    <nav class="header-nav">
+
+        <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+
+        <div class="header-nav__content">
+            <h3>Navigation</h3>
+            <!--Main Navigation of the site  -->
+            {% if page.sidebar %}
+              <ul class="header-nav__list">
+                  {{ page.sidebar }}
+              </ul>
+          {% endif %}
+
+        </div> <!-- end header-nav__content -->
+
+    </nav>  <!-- end header-nav -->
+
+    <a class="header-menu-toggle" href="#0">
+        <span class="header-menu-text"></span>
+        <span class="header-menu-icon"></span>
+    </a>
+
+</header> <!-- end s-header -->
+<!-- home
+================================================== -->
+<section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+    <div class="overlay"></div>
+    <div class="shadow-overlay"></div>
+
+    <div class="home-content">
+
+        <div class="row home-content__main">
+
+          {% if is_front %}
+             {{page.search}}
+          {% endif %}
+
+
+
+    </div> <!-- end home-content -->
+
+</section> <!-- end s-home -->

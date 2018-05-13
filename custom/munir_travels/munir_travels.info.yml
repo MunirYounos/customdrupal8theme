@@ -1,0 +1,20 @@
+name: Munir Travels
+type: theme
+description: 'Travelers guide is a first drupal 8 theme of its kind.'
+
+libraries:
+  - munir_travels/global-css
+  - munir_travels/global-js
+
+# Information added by Drupal.org packaging script on 2017-12-18
+version: '0.01'
+core: '8.x'
+project: 'munir_travels'
+
+
+regions:
+  content: 'Main content of the travels site'
+  header: 'main header of the travels site'
+  search: 'search area of travels'
+  sidebar: 'Sidebar Navigation'
+  footer: 'main footer of the travels site'
